@@ -434,7 +434,6 @@ app.post("/editcart", (req, res) => {
 
   const sql = "UPDATE cart SET userid = ? WHERE id = ?";
 
-  // Loop through each cart item and update the userid
   cartItems.forEach(cartItem => {
     const itemId = cartItem.id;
 

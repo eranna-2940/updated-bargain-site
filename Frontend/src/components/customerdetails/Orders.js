@@ -19,7 +19,7 @@ export default function Orders() {
         }
       })
       .catch((error) => {
-        console.log("Error fetching data:", error);
+        console.log("Error fetching datas:", error);
       });
   }, []);
 
